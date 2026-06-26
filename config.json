@@ -36,7 +36,7 @@
         {"url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch"}
     ],
     "mirror_regions": {
-
+      "China": ["https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch"]
     },
     "optional_repositories": [],
     "custom_repositories": [
@@ -68,7 +68,7 @@
     "openssh",
     "htop"
   ],
-  "parallel_downloads": 1,
+  "parallel_downloads": 5,
   "profile_config": null,
   "save_config": null,
   "script": "guided",
