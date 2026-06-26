@@ -33,7 +33,7 @@
   },
   "mirror_config": {
     "custom_servers": [
-      { "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch" }
+      "https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch"
     ],
     "mirror_regions": {
       "China": ["https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch"]
