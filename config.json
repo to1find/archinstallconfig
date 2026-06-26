@@ -13,7 +13,7 @@
   "disk_config": {
     "config_type": "default_layout",
     "disk_layouts": {
-      "/dev/nvme0n1": {
+      "/dev/sda": {
         "partitions": [
           { "size": { "unit": "MiB", "value": 1024 }, "type": "efi" },
           { "size": { "unit": "MiB", "value": 8192 }, "type": "swap" },
@@ -36,7 +36,7 @@
         {"url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch"}
     ],
     "mirror_regions": {
-      "China": ["https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch"]
+
     },
     "optional_repositories": [],
     "custom_repositories": [
@@ -68,7 +68,7 @@
     "openssh",
     "htop"
   ],
-  "parallel_downloads": 5,
+  "parallel_downloads": 1,
   "profile_config": null,
   "save_config": null,
   "script": "guided",
