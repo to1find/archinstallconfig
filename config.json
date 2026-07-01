@@ -56,7 +56,6 @@
     "base-devel",
     "git",
     "nvim",
-    "NetworkManager",
     "network-manager-applet",
     "noto-fonts",
     "noto-fonts-cjk",
